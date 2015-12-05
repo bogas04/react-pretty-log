@@ -11,6 +11,9 @@ ReactDOM.render(<PrettyLog items = {[
 ]} size = '200px' />, document.getElementById('root'));
 ```
 
+# Screenshot
+![Screenshot](docs/image.png)
+
 # Status
 
 * [ ] Find a way to keep it as customizable as possible
