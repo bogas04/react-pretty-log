@@ -1,0 +1,24 @@
+{
+  "name": "react-pretty-log",
+  "version": "1.0.0",
+  "description": "A react component to display pretty change log descriptors",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "changelog",
+    "log"
+  ],
+  "dependencies": {
+    "react": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18"
+  },
+  "author": "bogas04",
+  "license": "ISC"
+}
