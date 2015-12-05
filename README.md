@@ -11,6 +11,19 @@ ReactDOM.render(<PrettyLog items = {[
 ]} size = '200px' />, document.getElementById('root'));
 ```
 
+# Attributes
+
+* items
+  List of items to form bubble from.
+* classes
+  List of classes (space separated string) you want to add per bubble. For example `col-md-4` for 3 cards using bootstrap.
+* size
+  Size of images. For example `200px`.
+* color
+  Prominent color of the bubbles
+* font
+  Font for the text
+
 # Screenshot
 ![Screenshot](docs/image.png)
 

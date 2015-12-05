@@ -19,7 +19,7 @@ class PrettyLog extends React.Component {
       paddingTop: '4px',
       color: color,
       fontWeight: 'bold',
-      textTransform: 'uppercase'
+      textTransform: 'uppercase',
     };
 
     this.indexStyle = {
@@ -34,7 +34,8 @@ class PrettyLog extends React.Component {
       border: '4px solid ' + color,
       borderRadius: '50%',
       color: 'white',
-      backgroundColor: color
+      backgroundColor: color,
+      zIndex: 1,
     };
 
     this.imageStyle = {
@@ -42,14 +43,16 @@ class PrettyLog extends React.Component {
       border: '5px solid ' + color,
       height: size,
       width: size,
-      marginLeft: '-14px'
+      marginLeft: '-14px',
+      position: 'relative',
+      zIndex: 2,
     };
   }
   render () {
     let cards = this.props.items.map ((v, k) => {
       return (
-        <div style = {this.mainStyle} key = {v.url} >
-          <div style = {this.indexStyle} >{k}</div>
+        <div className = {this.props.classes} style = {this.mainStyle} key = {v.url} >
+          <div style = {this.indexStyle} >{k + 1}</div>
           <img style = {this.imageStyle} src = {v.image} alt = {v.title} />
           <div style = {this.titleStyle} >{v.title}</div>
         </div>
