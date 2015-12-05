@@ -20,7 +20,7 @@ ReactDOM.render(<PrettyLog items = {[
 * _font_ Font for the text
 
 # Screenshot
-![Screenshot](docs/image.png)
+![Screenshot](https://raw.githubusercontent.com/bogas04/react-pretty-log/master/docs/image.png)
 
 # Status
 
